@@ -6,7 +6,8 @@
         Attendance
       </span>
 
-      <div>
+      <div class="flex items-center gap-2">
+        <SearchInput />
         <ThemeSwitcher />
       </div>
     </nav>
@@ -15,5 +16,6 @@
 
 <script setup>
 import ThemeSwitcher from "@/components/tools/ThemeSwitcher.vue";
+import SearchInput from "@/components/tools/SearchInput.vue";
 import IconUserList from "@/components/icons/IconUserList.vue";
 </script>
