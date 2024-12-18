@@ -72,4 +72,26 @@
   body {
     @apply bg-background text-foreground;
   }
+  /* Webkit browsers */
+  ::-webkit-scrollbar {
+    width: 4px; /* Thin scrollbar width */
+    height: 4px; /* Thin scrollbar height */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--background)); /* Transparent track */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(
+      var(--brand-secondary-500)
+    ); /* Custom scrollbar thumb color */
+    border-radius: 10px; /* Rounded thumb */
+  }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin; /* Thin scrollbar in Firefox */
+    scrollbar-color: hsl(var(--primary)) hsl(var(--background)); /* Custom scrollbar colors */
+  }
 }
