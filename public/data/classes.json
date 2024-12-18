@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "day": "thursday",
+    "type": "computer-workshop",
+    "semesterId": 4031,
+    "title": "Computer workshop ",
+    "description": "Class 1 | Thursday - 7:30 AM"
+  },
+  {
+    "id": 2,
+    "day": "thursday",
+    "type": "computer-workshop",
+    "semesterId": 4031,
+    "title": "Computer workshop",
+    "description": "Class 2 | Thursday - 9:30 AM"
+  },
+  {
+    "id": 3,
+    "day": "thursday",
+    "type": "computer-workshop",
+    "semesterId": 4031,
+    "title": "Computer workshop",
+    "description": "Class 3 | Thursday - 11:30 AM"
+  },
+  {
+    "id": 1,
+    "day": "saturday",
+    "type": "computer-basics",
+    "semesterId": 4023,
+    "title": "Computer Basics",
+    "description": "Class 1 | Saturday - 7:30 AM"
+  }
+]

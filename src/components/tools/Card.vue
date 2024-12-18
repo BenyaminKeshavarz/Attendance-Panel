@@ -12,6 +12,7 @@ import IconArrow from "@/components/icons/IconArrow.vue";
 
 defineProps({
   title: String,
+  description: String,
 });
 </script>
 
@@ -19,7 +20,13 @@ defineProps({
   <Card class="group transition-colors duration-300 hover:bg-accent">
     <CardHeader>
       <div class="flex justify-between items-center">
-        <CardTitle>{{ title }}</CardTitle>
+        <section class="space-y-2.5">
+          <CardTitle>{{ title }}</CardTitle>
+          <CardDescription v-if="description">
+            {{ description }}
+          </CardDescription>
+        </section>
+
         <IconArrow
           class="size-6 rtl:rotate-180 transition-transform duration-500 group-hover:translate-x-2 rtl:group-hover:-translate-x-2"
         />
