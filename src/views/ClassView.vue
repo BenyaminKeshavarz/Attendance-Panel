@@ -2,9 +2,11 @@
   <main>
     <Breadcrumb :breadcrumb-items="breadcrumb" />
 
-    <ul class="space-y-3 mt-5">
+    <ul :dir="dir" class="space-y-3 mt-5">
       <li v-for="item in classes" :key="'semester' + item.id">
-        <RouterLink :to="`/classes?semester=${item.id}`">
+        <RouterLink
+          :to="`/classes/students?semester=${semesterId}&class=${item.id}`"
+        >
           <Card :title="item.title" :description="item.description" />
         </RouterLink>
       </li>
@@ -39,22 +41,25 @@ const semesterId = route.query["semester"];
 const searchStore = useSearchStore();
 const { getClasses } = useFetchData();
 
+let dir = "ltr";
 let classesData = [];
 const classes = ref([]);
 
 onMounted(async () => {
-  classesData = await getClasses(semesterId);
+  const { classesData: data, direction } = await getClasses(semesterId);
+  classesData = data;
+  dir = direction;
   classes.value = classesData;
 });
 
 watch(
   () => searchStore.searchValue,
   (value) => {
+    const query = value.toLowerCase();
     classes.value = classesData.filter((current) => {
-      const lowerCaseValue = value.toLowerCase();
       return (
-        current.title.toLowerCase().includes(lowerCaseValue) ||
-        current.description.toLowerCase().includes(lowerCaseValue)
+        current.title.toLowerCase().includes(query) ||
+        current.description.toLowerCase().includes(query)
       );
     });
   }

@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main :dir="dir">
     <ul class="space-y-3">
       <li v-for="item in semesters" :key="'semester' + item.id">
         <RouterLink :to="`/classes?semester=${item.id}`">
@@ -20,11 +20,14 @@ import Card from "@/components/tools/Card.vue";
 const searchStore = useSearchStore();
 const { getSemesters } = useFetchData();
 
+let dir = "ltr";
 let semestersData = [];
 const semesters = ref([]);
 
 onMounted(async () => {
-  semestersData = await getSemesters();
+  const { data, direction } = await getSemesters();
+  semestersData = data;
+  dir = direction;
   semesters.value = semestersData;
 });
 

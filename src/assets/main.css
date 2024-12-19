@@ -66,6 +66,9 @@
 }
 
 @layer base {
+  html {
+    overflow-x: hidden;
+  }
   * {
     @apply border-border;
   }
@@ -94,4 +97,13 @@
     scrollbar-width: thin; /* Thin scrollbar in Firefox */
     scrollbar-color: hsl(var(--primary)) hsl(var(--background)); /* Custom scrollbar colors */
   }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }

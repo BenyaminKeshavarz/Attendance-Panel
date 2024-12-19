@@ -1,15 +1,24 @@
 <script setup>
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-vue-next";
-import { useSearchStore } from "@/stores/searchStore";
+import { useVModel } from "@vueuse/core";
 
-const searchStore = useSearchStore();
+const emits = defineEmits(["update:modelValue"]);
+const props = defineProps({
+  defaultValue: { type: [String, Number], required: false },
+  modelValue: { type: [String, Number], required: false },
+});
+
+const modelValue = useVModel(props, "modelValue", emits, {
+  passive: true,
+  defaultValue: props.defaultValue,
+});
 </script>
 
 <template>
-  <div class="relative w-full max-w-sm items-center">
+  <div class="relative w-full sm:max-w-sm items-center">
     <Input
-      v-model.lazy="searchStore.searchValue"
+      v-model="modelValue"
       id="search"
       type="text"
       placeholder="Search..."

@@ -21,14 +21,14 @@ defineProps({
     <CardHeader>
       <div class="flex justify-between items-center">
         <section class="space-y-2.5">
-          <CardTitle>{{ title }}</CardTitle>
-          <CardDescription v-if="description">
+          <CardTitle class="max-sm:text-xl max-[375px]:text-lg">{{ title }}</CardTitle>
+          <CardDescription class="max-[375px]:text-xs" v-if="description">
             {{ description }}
           </CardDescription>
         </section>
 
         <IconArrow
-          class="size-6 rtl:rotate-180 transition-transform duration-500 group-hover:translate-x-2 rtl:group-hover:-translate-x-2"
+          class="size-6 max-[375px]:size-5 rtl:rotate-180 transition-transform duration-500 group-hover:translate-x-2 rtl:group-hover:-translate-x-2"
         />
       </div>
     </CardHeader>

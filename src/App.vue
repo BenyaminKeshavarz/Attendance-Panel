@@ -9,22 +9,10 @@ import Footer from "@/components/global/Footer.vue";
 
     <RouterView v-slot="{ Component }">
       <Transition name="fade" mode="out-in">
-        <component :is="Component" />
+        <component class="mb-5" :is="Component" />
       </Transition>
     </RouterView>
 
     <Footer class="mt-auto" />
   </div>
 </template>
-
-<style>
-/* Fade transition */
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.3s ease;
-}
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
-</style>

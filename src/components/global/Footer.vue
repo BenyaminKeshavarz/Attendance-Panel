@@ -1,13 +1,18 @@
 <template>
-  <footer class="flex justify-between mt-5 py-5 border-t font-semibold">
-    <p>
-      Made by ❤️
-      <a class="underline" href="https://github.com/BenyaminKeshavarz" target="_blank"
-        >Benyamin</a
-      >
-    </p>
+  <footer class="sticky z-10 bottom-0 bg-background py-5 border-t font-semibold">
+    <section class="flex justify-between">
+      <p>
+        Made by ❤️
+        <a
+          class="underline"
+          href="https://github.com/BenyaminKeshavarz"
+          target="_blank"
+          >Benyamin</a
+        >
+      </p>
 
-    <p>&copy; {{ year }}</p>
+      <p>&copy; {{ year }}</p>
+    </section>
   </footer>
 </template>
 
