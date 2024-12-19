@@ -12,26 +12,20 @@
 
 <script setup>
 import { ref, watch, onMounted } from "vue";
+import { useSearchStore } from "@/stores/searchStore";
+import { useFetchData } from "@/composables/useFetchData";
 
 import Card from "@/components/tools/Card.vue";
 
-import { useSearchStore } from "@/stores/searchStore";
-
 const searchStore = useSearchStore();
+const { getSemesters } = useFetchData();
 
 let semestersData = [];
 const semesters = ref([]);
 
 onMounted(async () => {
-  try {
-    const httpResponse = await fetch(
-      `${import.meta.env.BASE_URL}data/semesters.json`
-    );
-    semestersData = await httpResponse.json();
-    semesters.value = semestersData;
-  } catch (error) {
-    console.error("Failed to load semesters:", error);
-  }
+  semestersData = await getSemesters();
+  semesters.value = semestersData;
 });
 
 watch(

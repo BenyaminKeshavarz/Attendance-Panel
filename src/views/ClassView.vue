@@ -20,6 +20,7 @@ import Breadcrumb from "@/components/tools/Breadcrumb.vue";
 import Card from "@/components/tools/Card.vue";
 
 import { useSearchStore } from "@/stores/searchStore";
+import { useFetchData } from "@/composables/useFetchData";
 
 const breadcrumb = [
   {
@@ -33,25 +34,17 @@ const breadcrumb = [
 ];
 
 const route = useRoute();
+const semesterId = route.query["semester"];
 
 const searchStore = useSearchStore();
+const { getClasses } = useFetchData();
 
 let classesData = [];
 const classes = ref([]);
 
 onMounted(async () => {
-  try {
-    const httpResponse = await fetch(
-      `${import.meta.env.BASE_URL}data/classes.json`
-    );
-    const data = await httpResponse.json();
-    classesData = data.filter(
-      (current) => current.semesterId == route.query["semester"]
-    );
-    classes.value = classesData;
-  } catch (error) {
-    console.error("Failed to load classes:", error);
-  }
+  classesData = await getClasses(semesterId);
+  classes.value = classesData;
 });
 
 watch(
