@@ -1,0 +1,128 @@
+{
+  "direction": "rtl",
+  "data": [
+    {
+      "id": 4022,
+      "title": "نیمسال 4022",
+      "classes": []
+    },
+    {
+      "id": 4023,
+      "title": "نیمسال 4023",
+      "classes": [
+        {
+          "id": 1,
+          "title": "مبانی کامپیوتر",
+          "description": "کلاس 1 - شنبه - 7:30"
+        }
+      ]
+    },
+    {
+      "id": 4031,
+      "title": "نیمسال 4031",
+      "classes": [
+        {
+          "id": 1,
+          "title": "کارگاه کامپیوتر",
+          "description": "کلاس 1 - پنجشنبه - 7:30",
+          "students": [
+            {
+              "id": 402000001,
+              "fullName": "پارسا طهماسبی",
+              "presentation": {
+                "presented": true,
+                "date": "1403/8/3",
+                "title": "JS / Node JS"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "1403/7/12",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "1403/7/19",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "1403/7/26",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "1403/8/3",
+                  "records": null
+                },
+                {
+                  "date": "1403/8/10",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "1403/8/17",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "1403/8/24",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "1403/9/1",
+                  "records": null
+                },
+                {
+                  "date": "1403/9/8",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "1403/9/15",
+                  "records": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "کارگاه کامپیوتر",
+          "description": "کلاس 2 - پنجشنبه - 9:30"
+        },
+        {
+          "id": 3,
+          "title": "کارگاه کامپیوتر",
+          "description": "کلاس 3 - پنجشنبه - 11:30"
+        }
+      ]
+    }
+  ]
+}
