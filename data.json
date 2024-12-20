@@ -2,37 +2,21 @@
   "direction": "rtl",
   "data": [
     {
-      "id": 4022,
-      "title": "نیمسال 4022",
-      "classes": []
-    },
-    {
-      "id": 4023,
-      "title": "نیمسال 4023",
-      "classes": [
-        {
-          "id": 1,
-          "title": "مبانی کامپیوتر",
-          "description": "کلاس 1 - شنبه - 7:30"
-        }
-      ]
-    },
-    {
       "id": 4031,
       "title": "نیمسال 4031",
       "classes": [
         {
           "id": 1,
           "title": "کارگاه کامپیوتر",
-          "description": "کلاس 1 - پنجشنبه - 7:30",
+          "description": "کلاس 1 - پنجشنبه - 7:45",
           "students": [
             {
-              "id": 402000001,
+              "id": 1,
               "fullName": "پارسا طهماسبی",
               "presentation": {
                 "presented": true,
-                "date": "1403/8/3",
-                "title": "JS / Node JS"
+                "date": "October 24, 2024",
+                "title": "JS / NodeJS"
               },
               "finalScore": null,
               "totalScore": {
@@ -41,7 +25,7 @@
               },
               "dates": [
                 {
-                  "date": "1403/7/12",
+                  "date": "October 3, 2024",
                   "records": {
                     "attendance": true,
                     "homeWork": false,
@@ -49,7 +33,7 @@
                   }
                 },
                 {
-                  "date": "1403/7/19",
+                  "date": "October 10, 2024",
                   "records": {
                     "attendance": true,
                     "homeWork": true,
@@ -57,7 +41,24 @@
                   }
                 },
                 {
-                  "date": "1403/7/26",
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
                   "records": {
                     "attendance": true,
                     "homeWork": true,
@@ -65,19 +66,42 @@
                   }
                 },
                 {
-                  "date": "1403/8/3",
-                  "records": null
-                },
-                {
-                  "date": "1403/8/10",
+                  "date": "November 14, 2024",
                   "records": {
                     "attendance": true,
                     "homeWork": false,
                     "quiz": null
                   }
                 },
+                { "date": "November 21, 2024", "records": null },
                 {
-                  "date": "1403/8/17",
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 2,
+              "fullName": "مینا زندگی نیا",
+              "presentation": {
+                "presented": true,
+                "date": "October 17, 2024",
+                "title": "Flutter"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
                   "records": {
                     "attendance": true,
                     "homeWork": true,
@@ -85,7 +109,227 @@
                   }
                 },
                 {
-                  "date": "1403/8/24",
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 3,
+              "fullName": "مهدی دهقان نژادی",
+              "presentation": {
+                "presented": true,
+                "date": "November 14, 2024",
+                "title": "Git & GitHub"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 4,
+              "fullName": "محمد شریفی نوری",
+              "presentation": {
+                "presented": true,
+                "date": "October 24, 2024",
+                "title": "Web Protocols (http, https)"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 5,
+              "fullName": "فاطمه مرادیانی",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
                   "records": {
                     "attendance": true,
                     "homeWork": false,
@@ -93,11 +337,184 @@
                   }
                 },
                 {
-                  "date": "1403/9/1",
-                  "records": null
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
                 },
                 {
-                  "date": "1403/9/8",
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 6,
+              "fullName": "آروین چراغی",
+              "presentation": {
+                "presented": false,
+                "date": "November 28, 2024",
+                "title": "Wordpress"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 7,
+              "fullName": "سپیده موسوی",
+              "presentation": {
+                "presented": true,
+                "date": "November 21, 2024",
+                "title": "NextJS"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
                   "records": {
                     "attendance": true,
                     "homeWork": false,
@@ -105,9 +522,935 @@
                   }
                 },
                 {
-                  "date": "1403/9/15",
-                  "records": null
-                }
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 8,
+              "fullName": "پارسا روستا",
+              "presentation": {
+                "presented": true,
+                "date": "October 31, 2024",
+                "title": "Bootstrap"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 9,
+              "fullName": "محمد حسین شهیدی",
+              "presentation": {
+                "presented": "half",
+                "date": null,
+                "title": "PHP"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 10,
+              "fullName": "آرش معدنی پور",
+              "presentation": {
+                "presented": false,
+                "date": "November 14, 2024",
+                "title": "Web servers"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 11,
+              "fullName": "مهسا قره حسنلو",
+              "presentation": {
+                "presented": true,
+                "date": "November 7, 2024",
+                "title": "ASP.Net MVC"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 12,
+              "fullName": "محدثه بیروم وند",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 13,
+              "fullName": "سینا حبشی",
+              "presentation": {
+                "presented": true,
+                "date": "November 7, 2024",
+                "title": "Front-End vs. Back-End Development"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 14,
+              "fullName": "شهرزاد معتضدی",
+              "presentation": {
+                "presented": true,
+                "date": "October 31, 2024",
+                "title": "SEO"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 15,
+              "fullName": "ایدا بهجتی",
+              "presentation": {
+                "presented": true,
+                "date": "November 28, 2024",
+                "title": "Django & FastAPI"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 16,
+              "fullName": "محمد عرفان نظری",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 17,
+              "fullName": "شایان رنجبر",
+              "presentation": {
+                "presented": true,
+                "date": "November 21, 2024",
+                "title": "Web 3"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 18,
+              "fullName": "کیمیا پور رستمی",
+              "presentation": {
+                "presented": false,
+                "date": "November 21, 2024",
+                "title": "Clean code"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 19,
+              "fullName": "رامتین بیات",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
               ]
             }
           ]
@@ -115,14 +1458,4136 @@
         {
           "id": 2,
           "title": "کارگاه کامپیوتر",
-          "description": "کلاس 2 - پنجشنبه - 9:30"
+          "description": "کلاس 2 - پنجشنبه - 9:00",
+          "students": [
+            {
+              "id": 1,
+              "fullName": "آرمان عاشوری",
+              "presentation": {
+                "presented": false,
+                "date": "November 7, 2024",
+                "title": "Web servers"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 2,
+              "fullName": "فاطمه خواجه زاده",
+              "presentation": {
+                "presented": true,
+                "date": "October 31, 2024",
+                "title": "Git & GitHub"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 3,
+              "fullName": "امیرحسین صالحی",
+              "presentation": {
+                "presented": false,
+                "date": "October 31, 2024",
+                "title": "Tailwind"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 4,
+              "fullName": "شایان شریفی",
+              "presentation": {
+                "presented": true,
+                "date": "October 17, 2024",
+                "title": "NextJS"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 5,
+              "fullName": "آرش نجفی دلجو",
+              "presentation": {
+                "presented": true,
+                "date": "October 24, 2024",
+                "title": "Wordpress"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 6,
+              "fullName": "مریم شاهنده",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 7,
+              "fullName": "مهنا ناصرزاده",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 8,
+              "fullName": "مهدی جهانفر",
+              "presentation": {
+                "presented": true,
+                "date": "October 17, 2024",
+                "title": "Django"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 9,
+              "fullName": "مهدی تکبیری",
+              "presentation": {
+                "presented": true,
+                "date": "November 7, 2024",
+                "title": "SASS & LESS"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 10,
+              "fullName": "نگین رزاقی",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 11,
+              "fullName": "سپهر بختیاری",
+              "presentation": {
+                "presented": false,
+                "date": "November 21, 2024",
+                "title": "Javascript"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 12,
+              "fullName": "آسیه اکبری",
+              "presentation": {
+                "presented": false,
+                "date": "November 14, 2024",
+                "title": "Web 3"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 13,
+              "fullName": "سام جوادی فر",
+              "presentation": {
+                "presented": false,
+                "date": "November 14, 2024",
+                "title": "Web protocols"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 14,
+              "fullName": "ملیکا صابری",
+              "presentation": {
+                "presented": true,
+                "date": "November 21, 2024",
+                "title": "Clean code"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 15,
+              "fullName": "ابوالفضل قراچه",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            }
+          ]
         },
         {
           "id": 3,
           "title": "کارگاه کامپیوتر",
-          "description": "کلاس 3 - پنجشنبه - 11:30"
+          "description": "کلاس 3 - پنجشنبه - 11:00",
+          "students": [
+            {
+              "id": 1,
+              "fullName": "نگین بیگلری",
+              "presentation": {
+                "presented": true,
+                "date": "October 17, 2024",
+                "title": "SEO"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 2,
+              "fullName": "بنیامین کشاورز",
+              "presentation": {
+                "presented": true,
+                "date": "October 17, 2024",
+                "title": "JS"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 3,
+              "fullName": "امیر محمودی تکمه داش",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 4,
+              "fullName": "اشکان رخش ماه",
+              "presentation": {
+                "presented": true,
+                "date": "November 14, 2024",
+                "title": "Web 3"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 5,
+              "fullName": "نوید میرسلیمانی",
+              "presentation": {
+                "presented": true,
+                "date": "October 31, 2024",
+                "title": "Responsive web design"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 6,
+              "fullName": "فاطمه ریسمانچی",
+              "presentation": {
+                "presented": true,
+                "date": "October 24, 2024",
+                "title": "Bootstrap"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 7,
+              "fullName": "تینا دهقان",
+              "presentation": {
+                "presented": true,
+                "date": "November 7, 2024",
+                "title": "Flutter"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 8,
+              "fullName": "دل آرا مسعودی ",
+              "presentation": {
+                "presented": true,
+                "date": "October 31, 2024",
+                "title": "JQuery"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 9,
+              "fullName": "دنیا گودرزی",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 10,
+              "fullName": "فاطمه عبدالملکی",
+              "presentation": {
+                "presented": true,
+                "date": "November 7, 2024",
+                "title": "Tailwind"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 11,
+              "fullName": "امیرمحمد آیینی",
+              "presentation": {
+                "presented": true,
+                "date": "October 24, 2024",
+                "title": "Web server"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 12,
+              "fullName": "مهدی جلیلوند",
+              "presentation": {
+                "presented": false,
+                "date": "November 7, 2024",
+                "title": "Laravel"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 13,
+              "fullName": "فاطمه سادات شادگهر",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 14,
+              "fullName": "تینا حیدراولاد",
+              "presentation": {
+                "presented": true,
+                "date": "November 28, 2024",
+                "title": "Network Topologies"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 15,
+              "fullName": "رایا فرد",
+              "presentation": {
+                "presented": true,
+                "date": "November 21, 2024",
+                "title": "Git & GitHub"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "کارگاه کامپیوتر",
+          "description": "کلاس 4 - پنجشنبه - 13:45",
+          "students": [
+            {
+              "id": 1,
+              "fullName": "سید پارسا همراز",
+              "presentation": {
+                "presented": true,
+                "date": "November 21, 2024",
+                "title": "Web 3"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 2,
+              "fullName": "امیرحسین صیمی",
+              "presentation": {
+                "presented": true,
+                "date": "November 7, 2024",
+                "title": "Web servers"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 3,
+              "fullName": "ارشیا صالحی",
+              "presentation": {
+                "presented": false,
+                "date": "November 28, 2024",
+                "title": "Responsive web design"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 4,
+              "fullName": "زینب دهقانی",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": "Wordpress"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 5,
+              "fullName": "مهرسا ملکی",
+              "presentation": {
+                "presented": true,
+                "date": "November 7, 2024",
+                "title": "Front-End vs. Back-End Development"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 6,
+              "fullName": "زهرا عرب خدائلی",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": "AlpineJs"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 7,
+              "fullName": "راضیه کردلو",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title":null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 8,
+              "fullName": "رامتین محمودی کهن",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 9,
+              "fullName": "محمد نصیری",
+              "presentation": {
+                "presented": true,
+                "date": "October 24, 2024",
+                "title": "Git & GitHub"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 10,
+              "fullName": "رامیز کریمیان",
+              "presentation": {
+                "presented": true,
+                "date": "Octoboer 17, 2024",
+                "title": "JS"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 11,
+              "fullName": "شقایق قره داغی",
+              "presentation": {
+                "presented": false,
+                "date": "November 21, 2024",
+                "title": "Tailwind"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 12,
+              "fullName": "سارا روزبهانی",
+              "presentation": {
+                "presented": true,
+                "date": "October 31, 2024",
+                "title": "SEO"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 13,
+              "fullName": "آریا سهرابی",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 14,
+              "fullName": "نیما نیکو افروز",
+              "presentation": {
+                "presented": true,
+                "date": "October 31, 2024",
+                "title": "Clean Code"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 15,
+              "fullName": "فاطمه سادات شادگهر",
+              "presentation": {
+                "presented": true,
+                "date": "November 7, 2024",
+                "title": "PHP"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 16,
+              "fullName": "مبینا مهدیپور",
+              "presentation": {
+                "presented": true,
+                "date": "November 14, 2024",
+                "title": "Wordpress"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 17,
+              "fullName": "جواد عیسی لو",
+              "presentation": {
+                "presented": "half",
+                "date": "November 14, 2024",
+                "title": "ReactJS"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 18,
+              "fullName": "سوین سردشتی",
+              "presentation": {
+                "presented": true,
+                "date": "November 28, 2024",
+                "title": "ChatGPT"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 19,
+              "fullName": "امیرحسین نوری",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 20,
+              "fullName": "محمد عرفان نظری",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 21,
+              "fullName": "آراد پورکریم",
+              "presentation": {
+                "presented": false,
+                "date": null,
+                "title": null
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 22,
+              "fullName": "پویا پورنورعلی",
+              "presentation": {
+                "presented": "half",
+                "date": "November 21, 2024",
+                "title": "VueJS"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 23,
+              "fullName": "علیرضا خرمانی",
+              "presentation": {
+                "presented": true,
+                "date": "November 28, 2024",
+                "title": "Web Security"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": false,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            },
+
+            {
+              "id": 24,
+              "fullName": "مهدی عظیمی",
+              "presentation": {
+                "presented": true,
+                "date": "November 28, 2024",
+                "title": "Web Protocols"
+              },
+              "finalScore": null,
+              "totalScore": {
+                "score": null,
+                "passed": null
+              },
+              "dates": [
+                {
+                  "date": "October 3, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 10, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "October 17, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                { "date": "October 24, 2024", "records": null },
+                {
+                  "date": "October 31, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": true,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 7, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                {
+                  "date": "November 14, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "November 21, 2024", "records": null },
+                {
+                  "date": "November 28, 2024",
+                  "records": {
+                    "attendance": true,
+                    "homeWork": false,
+                    "quiz": null
+                  }
+                },
+                { "date": "December 5, 2024", "records": null }
+              ]
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": 4032,
+      "title": "نیمسال 4032",
+      "classes": []
+    },
+    {
+      "id": 4033,
+      "title": "نیمسال 4033",
+      "classes": []
     }
   ]
 }
