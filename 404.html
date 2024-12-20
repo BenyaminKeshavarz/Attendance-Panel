@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script>
+      // Redirect all unknown routes to the app's index.html
+      const path = window.location.pathname.replace("/Attendance-Panel/", "/");
+      const newUrl =
+        "/Attendance-Panel/" +
+        "#" +
+        path +
+        window.location.search +
+        window.location.hash;
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body>
+    Redirecting...
+  </body>
+</html>
