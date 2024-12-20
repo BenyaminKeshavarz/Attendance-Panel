@@ -3,13 +3,9 @@
     <Breadcrumb :breadcrumb-items="breadcrumb" />
 
     <div class="mt-5">
-      <!-- Search and Columns Actions -->
-      <div class="flex items-center justify-between mb-2">
-        <SearchInput v-model="searchQuery" />
-      </div>
 
       <!-- Table -->
-      <div :dir="dir" class="overflow-hidden rounded-md border">
+      <div v-if="filteredData?.length > 0" :dir="dir" class="overflow-hidden rounded-md border">
         <div class="overflow-x-auto">
           <table class="w-full text-sm text-left bg-background text-foreground">
             <!-- Table Header -->
@@ -18,31 +14,21 @@
                 <th
                   v-for="col in columns"
                   :key="col.field"
-                  class="px-6 py-4 font-medium whitespace-nowrap"
+                  class="px-4 py-2 font-medium text-center"
                 >
                   <div
                     :class="[
-                      'flex items-center justify-center text-center cursor-pointer',
-                      'text-muted-foreground transition-colors duration-300',
-                      { 'hover:text-inherit': col.sortable },
+                      'flex items-center justify-center gap-2 rounded text-center ps-2 pe-1.5 py-2 transition-colors duration-300 w-max mx-auto whitespace-nowrap',
+                      'text-muted-foreground ',
+                      {
+                        'hover:text-inherit hover:bg-secondary cursor-pointer':
+                          col.sortable,
+                      },
                     ]"
                     @click="col.sortable ? sortData(col.field) : null"
                   >
                     {{ col.label }}
-                    <span v-if="col.sortable" class="ml-1 text-xs">
-                      <span
-                        v-if="
-                          sortField === col.field && sortDirection === 'asc'
-                        "
-                        >▲</span
-                      >
-                      <span
-                        v-else-if="
-                          sortField === col.field && sortDirection === 'desc'
-                        "
-                        >▼</span
-                      >
-                    </span>
+                    <IconArrowUpDown v-if="col.sortable" class="size-5" />
                   </div>
                 </th>
               </tr>
@@ -57,9 +43,9 @@
                   'border-b': rowIndex !== filteredData.length - 1,
                 }"
               >
-                <td class="px-6 py-3">{{ row.number }}</td>
-                <td class="px-6 py-3">{{ row.fullName }}</td>
-                <td class="px-6 py-3">
+                <td class="px-1 py-3">{{ row.number }}</td>
+                <td class="px-1 py-3">{{ row.fullName }}</td>
+                <td class="px-1 py-3">
                   <div class="flex flex-col items-center gap-1">
                     <span>{{ row.presentation.date }}</span>
                     <span class="inline-flex items-center gap-1">
@@ -76,13 +62,13 @@
                     </span>
                   </div>
                 </td>
-                <td class="px-6 py-3">
+                <td class="px-1 py-3">
                   <span v-if="row.finalScore">
                     {{ row.finalScore }}
                   </span>
                   <span v-else>-</span>
                 </td>
-                <td class="px-6 py-3">
+                <td class="px-1 py-3">
                   <div class="inline-flex items-center gap-1">
                     <IconCheck
                       v-if="row.totalScore.passed === true"
@@ -102,7 +88,7 @@
                   v-for="(record, recordIndex) in row.records"
                   :key="'record' + recordIndex"
                 >
-                  <td v-if="record" class="px-6 py-3">
+                  <td v-if="record" class="px-4 py-3">
                     <div class="flex flex-col items-center gap-1">
                       <span class="inline-flex items-center gap-1">
                         <IconCheck
@@ -122,40 +108,37 @@
                       <span>{{ record.quiz }}</span>
                     </div>
                   </td>
-                  <td v-else class="px-6 py-3">-</td>
+                  <td v-else class="px-4 py-3">-</td>
                 </template>
-              </tr>
-              <tr v-if="filteredData.length === 0">
-                <td
-                  :colspan="columns.length + 2"
-                  class="px-6 py-3 text-center text-gray-500"
-                >
-                  No results found.
-                </td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
+
+      <EmptyCard v-else />
     </div>
   </main>
 </template>
 
 <script setup>
 import { ref, watch, onMounted, computed } from "vue";
-import SearchInput from "@/components/tools/SearchInput.vue";
 import Breadcrumb from "@/components/tools/Breadcrumb.vue";
+import EmptyCard from "@/components/tools/EmptyCard.vue";
 
 import IconCheck from "@/components/icons/IconCheck.vue";
 import IconXMark from "@/components/icons/IconXMark.vue";
+import IconArrowUpDown from "@/components/icons/IconArrowUpDown.vue";
 
 import { useFetchData } from "@/composables/useFetchData";
 import { useRoute } from "vue-router";
+import { useSearchStore } from "@/stores/searchStore";
+
 const { getStudents } = useFetchData();
+const searchStore = useSearchStore();
 
 // State
 let dir = "ltr";
-const searchQuery = ref("");
 const sortField = ref(null);
 const sortDirection = ref(null);
 const route = useRoute();
@@ -189,7 +172,7 @@ onMounted(async () => {
   const dateCols = [...new Set(allDates)].map((current, index) => ({
     label: current,
     field: `session${index + 1}`,
-    sortable: true,
+    sortable: false,
   }));
   data.value = studentsData.map((student, index) => ({
     number: index + 1,
@@ -222,8 +205,26 @@ const sortedData = computed(() => {
   if (!sortField.value) return data.value;
 
   return [...data.value].sort((a, b) => {
-    const aValue = a[sortField.value];
-    const bValue = b[sortField.value];
+    let aValue, bValue;
+
+    switch (sortField.value) {
+      case "presentation":
+        aValue = a.presentation?.presented || false;
+        bValue = b.presentation?.presented || false;
+        break;
+      case "finalScore":
+        aValue = a.finalScore || 0;
+        bValue = b.finalScore || 0;
+        break;
+      case "totalScore":
+        aValue = a.totalScore?.score || 0;
+        bValue = b.totalScore?.score || 0;
+        break;
+      default:
+        aValue = a[sortField.value];
+        bValue = b[sortField.value];
+        break;
+    }
 
     if (aValue === bValue) return 0;
 
@@ -233,10 +234,18 @@ const sortedData = computed(() => {
 });
 
 const filteredData = computed(() => {
-  const query = searchQuery.value.toLowerCase();
-  return sortedData.value.filter((row) =>
-    Object.values(row).join(" ").toLowerCase().includes(query)
-  );
+  const query = searchStore.searchValue.toLowerCase();
+
+  const flattenValues = (obj) => {
+    if (Array.isArray(obj)) {
+      return obj.map(flattenValues).join(" ");
+    } else if (obj && typeof obj === "object") {
+      return Object.values(obj).map(flattenValues).join(" ");
+    }
+    return String(obj || "").toLowerCase();
+  };
+
+  return sortedData.value.filter((row) => flattenValues(row).includes(query));
 });
 
 // Methods
