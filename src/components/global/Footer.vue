@@ -1,6 +1,6 @@
 <template>
-  <footer class="sticky z-10 bottom-0 bg-background py-5 border-t font-semibold">
-    <section class="flex justify-between">
+  <footer class="fixed w-full flex items-center justify-center z-10 bottom-0 left-0 bg-background py-5 border-t font-semibold">
+    <section class="container flex justify-between">
       <p>
         Made by ❤️
         <a
@@ -11,18 +11,8 @@
         >
       </p>
 
-      <p>&copy; {{ year }}</p>
+      <p>&copy; 2024</p>
     </section>
   </footer>
 </template>
 
-<script setup>
-import { computed } from "vue";
-
-const initialYear = 2024;
-const currentYear = new Date().getFullYear();
-
-const year = computed(() =>
-  initialYear === currentYear ? initialYear : `${initialYear} - ${currentYear}`
-);
-</script>

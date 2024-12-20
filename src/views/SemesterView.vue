@@ -1,12 +1,14 @@
 <template>
   <main :dir="dir">
-    <ul class="space-y-3">
+    <ul v-if="semesters?.length > 0" class="space-y-3">
       <li v-for="item in semesters" :key="'semester' + item.id">
         <RouterLink :to="`/classes?semester=${item.id}`">
           <Card :title="item.title" />
         </RouterLink>
       </li>
     </ul>
+
+    <EmptyCard v-else />
   </main>
 </template>
 
@@ -16,6 +18,7 @@ import { useSearchStore } from "@/stores/searchStore";
 import { useFetchData } from "@/composables/useFetchData";
 
 import Card from "@/components/tools/Card.vue";
+import EmptyCard from "@/components/tools/EmptyCard.vue";
 
 const searchStore = useSearchStore();
 const { getSemesters } = useFetchData();

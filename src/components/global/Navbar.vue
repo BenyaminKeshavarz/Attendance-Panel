@@ -1,22 +1,17 @@
 <template>
-  <header class="sticky z-10 top-0 bg-background border-b py-5 mb-5">
+  <header
+    class="fixed w-full flex items-center justify-center z-10 top-0 left-0 bg-background border-b sm:py-5 py-4"
+  >
     <nav
-      class="flex justify-between items-center"
-      :class="{ 'gap-4 max-sm:flex-col': !isStudentPage }"
+      class="container flex justify-between items-center sm:gap-4 gap-3 max-sm:flex-col"
     >
       <span class="inline-flex items-center font-extrabold text-3xl">
         <IconUserList class="size-11 me-1 mt-0.5 text-primary" />
         <span>Attend</span><span class="text-primary">Ease</span>
       </span>
 
-      <div
-        class="flex items-center"
-        :class="{ 'gap-2 max-sm:w-full': !isStudentPage }"
-      >
-        <SearchInput
-          v-if="!isStudentPage"
-          v-model="searchStore.searchValue"
-        />
+      <div class="flex items-center gap-2 max-sm:w-full">
+        <SearchInput v-model="searchStore.searchValue" />
 
         <ThemeSwitcher />
       </div>
@@ -30,10 +25,5 @@ import SearchInput from "@/components/tools/SearchInput.vue";
 import IconUserList from "@/components/icons/IconUserList.vue";
 
 import { useSearchStore } from "@/stores/searchStore";
-import { useRoute } from "vue-router";
-import { computed } from "vue";
-const route = useRoute();
 const searchStore = useSearchStore();
-
-const isStudentPage = computed(() => route.name?.includes("students"));
 </script>

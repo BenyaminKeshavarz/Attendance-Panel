@@ -2,15 +2,19 @@
   <main>
     <Breadcrumb :breadcrumb-items="breadcrumb" />
 
-    <ul :dir="dir" class="space-y-3 mt-5">
-      <li v-for="item in classes" :key="'semester' + item.id">
-        <RouterLink
-          :to="`/classes/students?semester=${semesterId}&class=${item.id}`"
-        >
-          <Card :title="item.title" :description="item.description" />
-        </RouterLink>
-      </li>
-    </ul>
+    <div class="mt-5" :dir="dir">
+      <ul v-if="classes?.length > 0"  class="space-y-3">
+        <li v-for="item in classes" :key="'semester' + item.id">
+          <RouterLink
+            :to="`/classes/students?semester=${semesterId}&class=${item.id}`"
+          >
+            <Card :title="item.title" :description="item.description" />
+          </RouterLink>
+        </li>
+      </ul>
+
+      <EmptyCard v-else/>
+    </div>
   </main>
 </template>
 
@@ -20,6 +24,7 @@ import { useRoute } from "vue-router";
 
 import Breadcrumb from "@/components/tools/Breadcrumb.vue";
 import Card from "@/components/tools/Card.vue";
+import EmptyCard from "@/components/tools/EmptyCard.vue";
 
 import { useSearchStore } from "@/stores/searchStore";
 import { useFetchData } from "@/composables/useFetchData";
