@@ -5,10 +5,10 @@
     <nav
       class="container flex justify-between items-center sm:gap-4 gap-3 max-sm:flex-col"
     >
-      <span class="inline-flex items-center font-extrabold text-3xl">
-        <IconUserList class="size-11 me-1 mt-0.5 text-primary" />
+      <RouterLink to="/" class="inline-flex items-center justify-center font-extrabold text-3xl">
+        <IconUserList class="size-11 me-1 text-primary" />
         <span>Attend</span><span class="text-primary">Ease</span>
-      </span>
+      </RouterLink>
 
       <div class="flex items-center gap-2 max-sm:w-full">
         <SearchInput v-model="searchStore.searchValue" />
