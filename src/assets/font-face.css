@@ -1,0 +1,74 @@
+/* 100 – Thin */
+/* 200 – ExtraLight (UltraLight) */
+/* 300 – Light */
+/* 400 – Normal (Regular) */
+/* 500 – Medium */
+/* 600 – SemiBold (DemiBold) */
+/* 700 – Bold */
+/* 800 – ExtraBold (UltraBold) */
+/* 900 – Black (Heavy) */
+
+/* Font Estedad */
+@font-face {
+  font-family: "estedad";
+  font-weight: 100;
+  src: url("./fonts/Estedad/Estedad-Thin.ttf") format("truetype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "estedad";
+  font-weight: 200;
+  src: url("./fonts/Estedad/Estedad-ExtraLight.ttf") format("truetype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "estedad";
+  font-weight: 300;
+  src: url("./fonts/Estedad/Estedad-Light.ttf") format("truetype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "estedad";
+  font-weight: 400;
+  src: url("./fonts/Estedad/Estedad-Regular.ttf") format("truetype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "estedad";
+  font-weight: 500;
+  src: url("./fonts/Estedad/Estedad-Medium.ttf") format("truetype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "estedad";
+  font-weight: 600;
+  src: url("./fonts/Estedad/Estedad-SemiBold.ttf") format("truetype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "estedad";
+  font-weight: 700;
+  src: url("./fonts/Estedad/Estedad-Bold.ttf") format("truetype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "estedad";
+  font-weight: 800;
+  src: url("./fonts/Estedad/Estedad-ExtraBold.ttf") format("truetype");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "estedad";
+  font-weight: 900;
+  src: url("./fonts/Estedad/Estedad-Black.ttf") format("truetype");
+  font-display: block;
+}
+
